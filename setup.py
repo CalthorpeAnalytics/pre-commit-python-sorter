@@ -2,7 +2,7 @@ import sys
 from setuptools import find_packages
 from setuptools import setup
 
-install_requires = ['isort==4.2.3']
+install_requires = ['isort==4.2.14']
 if sys.version_info < (2, 7):
     install_requires.append('argparse')
 
